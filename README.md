@@ -106,8 +106,3 @@ addClassSelectedButtonPagination(i); addClassCursorPointerPrevNext();.
 
   - `addNotFoundProduct()`, Se Agregará un mensaje,  para mostrar al usuario que no se encontró lo que busca.
 
-## Autores ✒️
-
-_Mencion a quienes ayudaron a levantar el proyecto desde sus inicios_
-
-* **Begazo Carhuayo Alvaro Martín** - *Trabajo Inicial* - [AlvaroB15](https://gitlab.com/projects-dev2/javascript)

@@ -1,0 +1,128 @@
+/* Para que no se pueda seleccionar el texto de la web */
+* {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Chrome/Safari/Opera */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently supported by any browser but < IE9 */
+}
+
+/* Para cambiar el diseño del scroll vertical */
+
+::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: rgb(16, 16, 16);
+    -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, .5);
+}
+
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #51565c;
+}
+
+.navbar-dark .navbar-nav .nav-link.active {
+    color: white;
+}
+
+.offcanvas-body, .offcanvas-header {
+    background-color: #212529;
+}
+
+.offcanvas-title {
+    color: white;
+}
+
+.contenedorFlex {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.card {
+    border: 1px solid #6c757d;
+}
+
+select {
+    background: transparent;
+    font-size: 14px;
+    height: 30px;
+    padding: 5px;
+    width: 250px;
+}
+
+select:focus {
+    outline: none;
+}
+
+.filter {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+label {
+    margin-right: 18px;
+}
+
+.div-pagination {
+    display: flex;
+    justify-content: end;
+    margin-bottom: 30px;
+}
+
+.subtitle {
+    font-size: 20px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.name-search {
+    color: #fdfd0d;
+}
+
+.not-found {
+    font-size: 25px;
+    margin-bottom: 110px;
+}
+
+.spacing-filter {
+    margin-right: 15px;
+}
+
+.div-filter {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+}
+
+.btn-primary {
+    width: 50%;
+    justify-self: center;
+}
+
+@media screen and (max-width: 480px) {
+    .contenedorFlex {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 15px;
+        margin: 0 50px;
+    }
+
+    .div-filter {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+    }
+
+    .spacing-filter {
+        margin-right: 15px;
+        margin-bottom: 15px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+}

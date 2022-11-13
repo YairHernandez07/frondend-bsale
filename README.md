@@ -24,7 +24,7 @@ Este repositorio esta enfocada para el lado Frontend del proyecto, el cual consu
 
 - También puede usar otras aplicaciones para levantarlo como servidor como XAMPP, LAMPP, Laragon (solo en Windows), entre otros.
 
-_Si lo que desea es probar la versión desplegada, visita el siguiente enlace https://desafio-begazo-carhuayo.netlify.app/  _`(cabe aclarar que suele no cargar en el primer intento, pero es algo que sale del alcance del desafío, ya que Heroku tiene un límite de estar encendido su proceso, y luego se vuelve inactivo, debido a que los servicios de Heroku y Netlify son gratuitos, por ello suele funcionar sin ningún problema en la segunda o tercera recarga, luego de esto cargará en la primera`__
+_Si lo que desea es probar la versión desplegada, visita el siguiente enlace https://chic-florentine-60c7d1.netlify.app/  _`(cabe aclarar que suele no cargar en el primer intento, pero es algo que sale del alcance del desafío, ya que Heroku tiene un límite de estar encendido su proceso, y luego se vuelve inactivo, debido a que los servicios de Heroku y Netlify son gratuitos, por ello suele funcionar sin ningún problema en la segunda o tercera recarga, luego de esto cargará en la primera`__
 
 ## Flujo de trabajo
 - Solo se tiene un hmtl, el index.html, que se encargará de hacer las funcionalidades que se mencionó al comienzo.
